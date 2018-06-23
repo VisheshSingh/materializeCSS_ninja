@@ -17,6 +17,17 @@
         .box {
             height: 200px;
         }
+
+        .row>div {
+            padding: 10px;
+            background: #ddd;
+            border: 1px solid #fff;
+            line-height: 60px;
+        }
+
+        .row {
+            margin: 40px auto;
+        }
     </style>
 </head>
 
@@ -56,7 +67,7 @@
         <hr>
 
         <h3>TEXT FORMATTING</h3>
-        <div class="container">
+        <div>
             <h5 class="center-align">Center Align</h5>
             <h5 class="left-align">Left Align</h5>
             <h5 class="right-align">Right Align</h5>
@@ -66,7 +77,7 @@
             <p>Vertical alignment!</p>
         </div>
 
-        <div class="container">
+        <div>
             <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus excepturi necessitatibus id velit exercitationem
                 doloremque tempore vitae eum eaque hic esse voluptatum, quibusdam voluptate quidem?</p>
         </div>
@@ -120,6 +131,49 @@
 
         </div>
         <hr>
+
+        <h3>RESPONSIVE GRID</h3>
+        <div class="row">
+            <div class="col s3">Content</div>
+            <div class="col s3">Content</div>
+            <div class="col s3">Content</div>
+            <div class="col s3">Content</div>
+        </div>
+
+        <div class="row">
+            <div class="col s6 m3">Content</div>
+            <div class="col s6 m3">Content</div>
+            <div class="col s6 m3">Content</div>
+            <div class="col s6 m3">Content</div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 m6 l4">Content</div>
+            <div class="col s12 m6 l4">Content</div>
+            <div class="col s12 m6 l4">Content</div>
+            <div class="col s12 m6 l4">Content</div>
+            <div class="col s12 m6 l4">Content</div>
+            <div class="col s12 m6 l4">Content</div>
+        </div>
+
+        <div class="row">
+            <div class="col s12 m6 l4 xl2">Content</div>
+            <div class="col s12 m6 l4 xl2">Content</div>
+            <div class="col s12 m6 l4 xl2">Content</div>
+            <div class="col s12 m6 l4 xl2">Content</div>
+            <div class="col s12 m6 l4 xl2">Content</div>
+            <div class="col s12 m6 l4 xl2">Content</div>
+        </div>
+
+        <div class="row">
+            <div class="col s6 m8">Content</div>
+            <div class="col s6 m4">Content</div>
+            <div class="col s6 m4">Content</div>
+            <div class="col s6 m8">Content</div>
+        </div>
+
+        <hr>
+
     </div>
 
 </body>
