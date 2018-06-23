@@ -13,13 +13,17 @@
 
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-
+    <style>
+        .box {
+            height: 200px;
+        }
+    </style>
 </head>
 
 <body>
     <div class="container">
         <!-- HEADERS AND PARAS -->
-        <h1>HEADERS AND PARAS </h1>
+        <h3>HEADERS AND PARAS </h3>
         <h1>Hello Materialize!</h1>
         <h2>Do you notice</h2>
         <h3>that I am </h3>
@@ -33,7 +37,7 @@
         <hr>
 
         <!-- HIDDEN CONTENT -->
-        <h1>HIDDEN CONTENT</h1>
+        <h3>HIDDEN CONTENT</h3>
         <h3 class="hide">Hide on all screen sizes</h3>
         <h3 class="hide-on-small-only">Hide on small devices only</h3>
         <h3 class="hide-on-med-only">Hide on medium devices only</h3>
@@ -43,13 +47,29 @@
         <hr>
 
         <!-- COLORS -->
-        <h1>COLORS</h1>
+        <h3>COLORS</h3>
         <h5 class="purple lighten-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Repellendus, quas?</h5>
         <h5 class="orange darken-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit.</h5>
         <h5 class="red darken-3 white-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum.</h5>
         <h5 class="yellow black-text text-darken-4">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nihil, earum?</h5>
-        <h5 class="green lighten-2 purple-text text-darken-3">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
+        <h5 class="green lighten-2 blue-text text-darken-3">Lorem ipsum dolor sit amet consectetur adipisicing.</h5>
         <hr>
+
+        <h3>TEXT FORMATTING</h3>
+        <div class="container">
+            <h5 class="center-align">Center Align</h5>
+            <h5 class="left-align">Left Align</h5>
+            <h5 class="right-align">Right Align</h5>
+        </div>
+
+        <div class="container grey lighten-2 box valign-wrapper">
+            <p>Vertical alignment!</p>
+        </div>
+
+        <div class="container">
+            <p class="truncate">Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus excepturi necessitatibus id velit exercitationem
+                doloremque tempore vitae eum eaque hic esse voluptatum, quibusdam voluptate quidem?</p>
+        </div>
     </div>
 
 </body>
