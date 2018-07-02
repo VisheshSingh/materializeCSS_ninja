@@ -346,15 +346,35 @@
         </div>
         <hr>
 
+        <div>
+            <h2>Modals</h2>
+            <a href="#terms" class="btn orange modal-trigger">Terms & Conditions</a>
+            <div class="modal" id="terms">
+                <div class="modal-content">
+                    <h4>Terms & Conditions</h4>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus eveniet quas itaque eum ipsam.
+                        Ipsam quae molestiae nemo mollitia? Dolore adipisci eveniet corrupti et excepturi atque cum accusantium
+                        laudantium, debitis, maxime porro quisquam officia illum veniam odit similique nihil architecto.</p>
+                </div>
+                <div class="modal-footer">
+                    <a href="#" class="modal-close btn orange">Agree & Close</a>
+                </div>
+            </div>
+        </div>
+
 
     </div>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
 
-    <script>$(document).ready(function () {
+    <script>
+        $(document).ready(function () {
             $('.sidenav').sidenav();
-        });</script>
+            $('.modal').modal();
+        });
+
+    </script>
 
 </body>
 
